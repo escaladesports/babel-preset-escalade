@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "Kennedy Rose <krose@escaladesports.com>",
   "license": "MIT",
-  "script": {
+  "scripts": {
     "build": "echo 'No build process'",
     "test": "echo 'No test'"
   },
