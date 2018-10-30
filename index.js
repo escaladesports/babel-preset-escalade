@@ -43,7 +43,7 @@ module.exports = declare((api, options) => {
 			[require('@babel/preset-react'), { development }]
 		],
 		plugins: [
-			require('@babel/transform-runtime'),
+			require('@babel/plugin-transform-runtime'),
 			require('@babel/plugin-proposal-function-bind'),
 			require('@babel/plugin-proposal-export-default-from'),
 			require('@babel/plugin-proposal-logical-assignment-operators'),
