@@ -71,6 +71,7 @@ module.exports = declare((api, options) => {
 			}],
 			require('@babel/plugin-proposal-json-strings'),
 			require('babel-plugin-dynamic-import-node'),
+			require('@babel/plugin-proposal-object-rest-spread')
 		]
 	}
 })
